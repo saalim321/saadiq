@@ -1,0 +1,214 @@
+/* Start Global Rules */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* End Global Rules */
+
+
+.nav{
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav .container h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.nav .container .col{
+    display: flex;
+}
+.nav .container .col ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav .container .col ul li{}
+.nav .container .col ul li button{
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.one{
+    padding-top:60px ;
+    padding-bottom: 60px;
+}
+.one .container{
+    display: flex;
+    justify-content: space-between;
+}
+.one .container .col{
+    flex-basis: 45%;
+}
+.one .container .col h2{
+    padding-top: 100px;
+    font-size: 50px;
+}
+.one .container .col p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: grey;
+}
+.one .container .col .btn1{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.one .container .col img{
+    width: 400px;
+}
+.one .container .col .btn2{
+    margin-right: 20px;
+    background: transparent;
+    color: blue;
+    border: none;
+
+}
+
+.two{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.two .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.two .container .col{
+    flex-basis: 45%;
+}
+@media (max-width:767px) {
+    .two .container .col{
+        flex-basis: 100%;
+    }
+}
+.two .container .col p{
+    color: gray;
+    font-size: 20px;
+}
+.two .container .col h3{
+    font-size: 30px;
+    color: gray;
+    
+}
+
+
+.three{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.three .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.three .container .col{
+    flex-basis: 30%;
+}
+.three .container .col h3{
+    color:blue;
+}
+.three .container .col img{}
+.three .container .col p{
+    color: gray;
+}
+
+
+.four{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.four .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.four .container .col{
+    flex-basis: 45%;
+}
+.four .container .col h3{
+    font-size: 50px;
+
+}
+.four .container .col button{
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.four .container .col img{
+    width: 450px;
+}
+.four .container .col p{
+    color: grey;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.five{
+
+}
+.five  h2{
+    text-align: center;
+}
+.five  p{
+    text-align: center;
+}
+.five .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.five .container .col{
+    flex-basis: 30%;
+}
+.five .container .col img{}
+.five .container .col h4{}
+.five .container .col p{
+    text-align: start;
+}
